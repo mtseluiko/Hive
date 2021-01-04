@@ -83,6 +83,6 @@ module.exports = {
 			script.push(fromStatement);
 		}
 		
-		return script.join('\n  ') + ';\n\n\n\n\n'
+		return script.join('\n  ') + ';'
 	}
 };
